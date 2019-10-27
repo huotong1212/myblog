@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/huotong1212/blog
-root: /blog/
+url: https://github.com/huotong1212/myblog
+root: /myblog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -92,6 +92,6 @@ plugins: hexo-generate-feed
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/huotong1212/blog
+  repo: https://github.com/huotong1212/myblog
   brandh: gh-pages
-  messge:
+  messge: 更新gh-pages
