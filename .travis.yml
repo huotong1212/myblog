@@ -7,10 +7,11 @@ branches:
   only:
     - master # build master branch only
 script:
+  - hexo clean
   - hexo generate # generate static files
 deploy:
   provider: pages
-  skip-cleanup: true
+  skip-cleanup: false
   github-token: $GH_TOKEN
   keep-history: false
   on:
