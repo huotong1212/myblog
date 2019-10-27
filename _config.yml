@@ -92,6 +92,6 @@ plugins: hexo-generate-feed
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:你的GitHub用户名/你的GitHub用户名.github.io.git
-  brandh: master
+  repo: https://github.com/huotong1212/blog
+  brandh: gh-pages
   messge:
