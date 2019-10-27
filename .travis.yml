@@ -7,6 +7,12 @@ branches:
   only:
     - master # build master branch only
 script:
+  - git git@github.com:theme-next/hexo-theme-next.git themes/next
+  - cd themes/next
+  - git clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nest
+  - git clone https://github.com/theme-next/theme-next-canvas-ribbon source/lib/canvas-ribbon
+  - cd ..
+  - cd ..
   - hexo clean
   - hexo generate # generate static files
 deploy:
